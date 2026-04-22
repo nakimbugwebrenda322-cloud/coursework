@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            margin-bottom:30px;
+        }
+        th, td{
+            border:1px solid black;
+            padding:10px;
+            text-align:left;
+        }
+        body{
+            background-color: aliceblue;
+            background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),url(Africa.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+<a href="Mine.html">My profile</a>
+<h3>Use of superscript and subsript</h3>
+<ol type="i">
+    <li>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></li>
+    <li>log<sub>b</sub> <sup>a</sup> = log <sub>c</sub> <sup>a</sup> / log <sub>c</sub> <sup>b</sup></li>
+    <li>This text contains <sup>sensitive</sup>information which may be <sub>deciphered</sub>by<span style="color:red;">NASA</span></li>
+    <li></li>
+</ol>
+<ol type="i">
+    <li>
+        <b>My First list</b>
+        <ol>
+            <li>
+                <b>Fruits</b>
+                <ol type="i">
+                    <li>
+                        <b>Berries</b>
+                        <ul type="circle">
+                            <li>Apples</li>
+                            <li>Tomatoes</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <b>Drupes</b>
+                        <ul type="square">
+                            <li>Mango</li>
+                            <li>Avocado</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                <b>Vegetables</b>
+                <ol type="a">
+                    <li>
+                        Leafy
+                        <ul type="disc">
+                            <li>Kale</li>
+                            <li>Spinach</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Non leafy
+                        <ul type="disc">
+                            <li>Cabbage</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <b>Meats</b>
+                <ul>
+                    <li>
+                        White meats
+                        <ol type="A">
+                            <li>Chicken</li>
+                            <li>Tuna</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        Red meats
+                        <ol type="I">
+                            <li>Beef</li>
+                            <li>Mutton</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+
+
+        
+         </ol>
+    </li>
+
+    <li>
+        <b>My Second List</b>
+        <ol type="A">
+            <li>
+                Fruits
+                <ol>
+                    <li>
+                        Berries:
+                        <ol type="a">
+                            <li>Apples</li>
+                            <li>Tomatoes</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        Drupes
+                        <ol type="i">
+                            <li>Mango</li>
+                            <li>Avocado</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                Vegetables
+                <ul type="disc">
+                    <li>
+                        Leafy
+                        <ol type="i">
+                            <li>Kale</li>
+                            <li>Spinach</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        Non leafy
+                        <ol type="a">
+                            <li>Cabbage</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                Meats
+                <ul>
+                    <li>White meats</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+</ol>
+<h3>My First Table</h3>
+<table>
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td>SCS101</td>
+        <Td>SCS104</Td>
+        <td>SCS105</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>SCS104</td>
+        <td></td>
+        <td>SCS105</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SCS101</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>SCS101</td>
+        <td></td>
+        <td></td>
+        <td>SCS102</td>
+        <td>SCS102</td>
+    </tr>
+</table>
+<h3>My Second Table</h3>
+<table>
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td rowspan="2">SCS101</td>
+        <td>SCS104</td>
+        <td>SSC105</td>
+        <td rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SCS104</td>
+        <td>SCS105</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SCS101</td>
+        <td colspan="3"></td>
+    </tr>
+    <tr>
+        <td>SCS1101</td>
+        <td></td>
+        <td></td>
+        <td>SCS102</td>
+        <td>SCS102</td>
+    </tr>
+</table>
+<h3>My Third Table</h3>
+<table>
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td rowspan="2">SCS101</td>
+        <td>SCS104</td>
+        <td>SCS105</td>
+        <td rowspan="2">
+            i. Eat <br>
+            ii. Sleep
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SCS104</td>
+        <td>SCS105</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>SCS101</td>
+        <td colspan="3"></td>
+    </tr>
+    <tr>
+        <td>SCS101</td>
+        <td></td>
+        <td></td>
+        <td>SCS102</td>
+        <td>SCS102</td>
+    </tr>
+</table>
+<h3>My Fourth Table</h3>
+<table>
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th></th>
+        <th>Wednesday</th>
+        <th></th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td>SCS101</td>
+        <td>SCS104</td>
+
+        <td rowspan="2">B<br>R<br>E<br>A<br>K<br>
+        </td>
+
+        <td>SCS105</td>
+
+        <td rowspan="2">L<br>U<br>N<br>C<br>H
+        </td>
+
+        <td rowspan="2" style="vertical-align:top;">SCS102</td>
+        <td></td>
+
+    </tr>
+    <tr>
+        <td>SCS111</td>
+        <td></td>
+        <td>SCS104</td>
+        <td style="vertical-align: top;">SCS105</td>
+    </tr>
+</table>
+    
+</body>
+</html>
